@@ -1,0 +1,126 @@
+.menucontent{
+  position: relative;
+  top: 3rem;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+  
+    
+  /* z-index: -1; */
+}
+/* .pizza-menu {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  } */
+  
+  .pizza-item {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cbcac6;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .pizza-image {
+    width:130px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .pizza-info {
+    flex: 1;
+    
+  }
+  .pizza-item:hover{
+    transform: translateY(-5px);
+
+  }
+  
+  .pizza-info h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .pizza-info p {
+    margin: 5px 0;
+  }
+  
+  .price {
+    position: relative;
+    bottom: 0;
+    
+    font-weight: bold;
+    /* background-color: red; */
+  }
+  .priceDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sold-out {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: #f9d922;
+    border: none;
+    color: #333;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    float: right;
+  }
+  
+  /* .add-to-cart:hover {
+    background-color: #a9a9a4;
+  }
+   */
+  .remove-to-cart {
+    background-color: #a9a9a4;
+    border: none;
+    
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: white;
+    float: right;
+  }
+
+
+  /* .remove-to-cart:hover {
+    background-color: #e8c11d;
+  } */
+
+
+
+  .spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    text-align: center;
+  }
+  
+  /* Spinner animation */
+  .loading-spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

@@ -1,0 +1,30 @@
+/* .footerdiv{
+  width: 100%;
+  position: relative;
+} */
+
+.footer {
+    
+  position: fixed;
+  width:100%;
+
+  top:93vh;
+  background-color: #333;
+  color: #fff;
+  text-align: right;
+  padding: 15px;
+}
+  
+.cart-button {
+  margin-right: 20px;
+  
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  /* border: solid 2px grey; */
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  text-decoration: underline;
+}

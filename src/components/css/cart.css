@@ -1,0 +1,147 @@
+General styles */
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .content {
+    /* z-index: -1; */
+    position: relative;
+    top: 50px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    /* border: 1px solid #ddd;  */
+    margin-bottom: 100px;
+  }
+  
+.cartHeading{
+    
+    color: #333;
+    margin-top: 50px;
+  } 
+  .cartTable{
+    width: 100%;
+    
+
+  }
+
+  .cartTable tr{
+    text-align: center;
+    
+  }
+  .cartTable td{
+    margin-bottom: 10px;
+  }
+  /* Cart item styles */
+  /* .cartUl {
+    list-style: none;
+    padding: 0;
+  } */
+  
+  
+  /* .cartLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cartLi p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  } */
+  
+  .cartButton {
+    background-color: #ffda47;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .removeB{
+    background-color: #a9a9a4;
+    border: none;
+    
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: white;
+    margin-left: 30px;
+    
+  }
+
+  
+  .cartButton:hover {
+    background-color: #eaaa14;
+  }
+  
+  /* Total price and cart buttons */
+  .cartP {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .orderButton{
+    background-color: #f5c144;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 1.5rem;
+  }
+  
+  .orderButton:hover{
+    background-color: #eaaa14;
+  }
+  .cartClearB {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 1.5rem;
+  }
+  
+  .cartClearB:hover {
+    background-color: #e03b3b;
+  }
+  
+  /* Link to menu */
+  h4 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  .backtomenu{
+    color: rgb(16, 73, 218);
+  }
+  .backtomenu:hover {
+    text-decoration: underline;
+  }
+  
+  .emptyCart{
+    text-align: center;
+  }

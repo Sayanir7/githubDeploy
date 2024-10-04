@@ -1,0 +1,77 @@
+/* Container setup */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #f9d922; /* Yellow bar */
+    padding: 15px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Main content */
+  .main-content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 28px;
+    color: #f9d922;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .order-button {
+    background-color: #f9d922;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #e8c11d;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 15px;
+  }
+  
+  .cart-button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-button:hover {
+    text-decoration: underline;
+  }
+  
